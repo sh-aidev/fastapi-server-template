@@ -1,0 +1,13 @@
+[project]
+name = "fastapi-server-template"
+version = "0.1.0"
+description = "A minimal FastAPI server template"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi[standard]>=0.110.0",
+    "loguru>=0.7.2",
+    "pydantic>=2.0.0",
+    "toml>=0.10.2",
+    "uvicorn>=0.29.0",
+]
